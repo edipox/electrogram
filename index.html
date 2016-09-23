@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/index.css">
+  <body>
+    <div id="stars" class="stars"></div>
+    <div id="stars2" class="stars"></div>
+    <div id="stars3" class="stars"></div>
+    <webview src="https://web.telegram.org" autosize="on" preload="js/webview-load.js"  id="webview"  ></webview>
+    <div id="controls">
+      <button id="close-btn"></button>
+      <button id="min-btn" > </button>
+      <button id="max-btn" ></button>
+      <button id="settings-btn"></button>
+    </div>
+    <div id="headerbar-footer"></div>
+    <div id="popup">
+      <div id="settings-panel">
+        <select id="theme-selector">
+          <option value="elementary">elementary</option>
+          <option value="mac">mac</option>
+        </select>
+      </div>
+    </div>
+  </body>
+  <script src="js/controls.js"></script>
+</html>

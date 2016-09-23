@@ -1,0 +1,8 @@
+{
+  "name": "Advantager-Electron",
+  "version": "0.0.1",
+  "main": "main.js", 
+    "scripts": {
+        "start": "electron ."
+    }
+}

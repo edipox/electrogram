@@ -1,0 +1,56 @@
+html, body{
+  background: rgba(140, 140, 140, 0.5);
+}
+
+#controls, #headerbar-footer{
+  height: 44px;
+  z-index: 99;
+  width: 100%;
+  position: absolute;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  height: 17px;
+}
+
+#controls{
+  border: 2px groove #83aac7;
+  border-bottom: none;
+  top: 0;
+  border-radius: 43px 99px 77px 0;
+  border-right: none;
+  background: none;
+}
+
+#headerbar-footer{
+  top: 35px;
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.3);
+}
+
+#controls button{
+  border-radius: 99px;
+  padding: 7px;
+  border: none;
+  margin: 3px;
+}
+
+#controls button#close-btn{
+  background: none;
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  background-image: url("images/close.png");
+}
+
+webview{
+  height: 100%;
+  width: 100%;
+  padding-bottom: 5px;
+  -webkit-app-region: no-drag;
+  padding-top: 4px;
+  background-color: #5682a3;
+  border-radius: 7px;
+}
+
+.stars, #min-btn, #max-btn{
+  display:none;
+}
